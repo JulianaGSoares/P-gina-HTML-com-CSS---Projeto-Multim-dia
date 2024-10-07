@@ -1,0 +1,99 @@
+body{
+    background:url('imagens/fundo.gif') repeat-x; /* Define uma imagem de fundo repetida horizontalmente */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do corpo do texto */
+    margin: 0px; /* Remove as margens do corpo */
+}
+
+div#header{
+    width: 1080px;   /* Define a largura do cabeçalho */
+    height: 140px;   /* Define a altura do cabeçalho */
+    margin: 0px auto;  /* Centraliza o cabeçalho horizontalmente com margem automática nas laterais */
+}
+
+div#header h1{
+    margin-top: 30px;  /* Define uma margem superior para o elemento h1 */
+    display: block;    /* Exibe o elemento como um bloco */
+    float: left;       /* Flutua o elemento para a esquerda dentro do contêiner */
+}
+
+ul#nav{
+    list-style: none; /* Remove os marcadores padrão da lista não ordenada */
+    padding-left: 0px; /* Remove o preenchimento à esquerda da lista */
+    display: block;    /* Exibe a lista como um bloco */
+    float: left;       /* Flutua a lista para a esquerda */
+    margin-left: 130px; /* Define uma margem à esquerda para a lista */
+    margin-top: 80px;  /* Define a margem superior */
+}
+
+ul#nav li{
+    float: left; /* Flutua os itens da lista para a esquerda, colocando-os em linha */
+    margin-right: 25px; /* Define uma margem à direita para os itens da lista */
+}
+
+ul#nav a{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #231f20;  /* Define a cor do texto dos links */
+    padding-top: 8px; /* Adiciona preenchimento superior aos links */
+}
+
+/* Quando o cursor passa em cima do link */
+ul#nav a:hover{
+    border-top: 5px solid #FC0; /* Adiciona uma borda superior amarela ao passar o mouse */
+}
+
+/* Classe para o link ativo */
+ul#nav a.ativa{
+    border-top: 5px solid #FC0; /* Adiciona uma borda superior amarela ao link ativo */
+}
+
+div#banner{
+    width: 985px;  /* Define a largura do banner */
+    height: 237px; /* Define a altura do banner */
+    margin: 0px auto; /* Centraliza o banner horizontalmente */
+    position: relative; /* Define a posição relativa para o banner */
+}
+
+div#banner a{
+    position: absolute; /* Define a posição absoluta para o link dentro do banner */
+    top: 132px; /* Define a posição superior do link */
+    left: 590px; /* Define a posição à esquerda do link */
+}
+
+div#banner a img{
+    border: none; /* Remove a borda da imagem dentro do link */
+}
+
+div#section{
+    width: 1080px;  /* Define a largura da seção */
+    margin: 15px auto; /* Centraliza a seção horizontalmente */
+}
+
+div.article{
+    width: 250px; /* Define a largura dos artigos */
+    float: left; /* Flutua os artigos para a esquerda */
+    margin: 0px 25px; /* Define margens laterais para os artigos */
+}
+
+div.article h1{
+    font-size: 20px; /* Define o tamanho da fonte do título do artigo */
+    font-weight: normal; /* Define o peso da fonte como normal */
+    text-transform: uppercase; /* Transforma o texto do título em letras maiúsculas */
+}
+
+div.article a{
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+div.article p{
+    color: #4d4d4d;
+}
+
+div#footer{
+    background-color: #ffab08;
+    width: 1080px;
+    margin: 0px auto;
+}
