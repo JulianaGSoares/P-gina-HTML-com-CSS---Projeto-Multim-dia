@@ -1,4 +1,4 @@
-## 🌐 Pagina-HTML-com-CSS
+## 🌐 Página - HTML com CSS
 
 Este projeto foi desenvolvido durante as aulas de Multimédia na Escola Superior de Técnologia do IPCB. Ele consiste em uma página web básica, utilizando HTML e CSS para demonstrar conceitos fundamentais de desenvolvimento web, como estruturação de conteúdo, navegação e estilização.
 
